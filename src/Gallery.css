@@ -1,0 +1,109 @@
+.grid-container2{
+    margin-top: 75px;
+    display: grid;
+   
+    
+    grid-template-columns: 23% 23% 23% 23%;
+}
+  
+  .bg12,.bg23,.bg34,.bg45{
+    margin-left: 60px;
+    margin-top: 0px;
+  }
+  body{
+    overflow: scroll;
+  }
+  
+
+  .bg45 img:hover{
+
+   zoom:2 ;
+    
+    
+   
+  }
+  .bg12 img:hover{
+
+    zoom:2 ;
+  }
+  
+  .bg23 img:hover{
+    zoom:2 ;
+  }
+  .bg34 img:hover{
+
+    zoom:2 ;
+  }
+
+
+  .stylist-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 40px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+   
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .stylist-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .profile-details {
+    text-align: left;
+    width: 100%;
+  }
+  
+  .stylist-bio {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .stylist-specialties {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .stylist-specialties li {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .book-now-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .book-now-btn:hover {
+    background-color: #ff1493;
+  }
+  
+  .vId{
+    display: flex;
+  }

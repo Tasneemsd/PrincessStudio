@@ -1,0 +1,16 @@
+.mimg{
+    width: 700px;
+    height: 500px;
+   background-size: auto;
+    position: absolute;
+    box-shadow: 0px 10px 30px black;
+    z-index: -1;
+}
+.kimg{
+    margin-left: 680px;
+    background-color:whitesmoke;
+    width: 400px;
+    box-shadow: 0px 10px 30px black;
+    margin-top: 45px;
+    height: 503px;
+}

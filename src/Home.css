@@ -1,0 +1,65 @@
+
+
+.bgim{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/038/812/699/large_2x/ai-generated-beautiful-background-for-beauty-salon-extensions-advertising-free-photo.jpeg);
+    width: 1520px;
+   position: absolute;
+   z-index: -1;
+    background-position: center;
+    height: 665px;
+
+   } 
+   body{
+    overflow: hidden;
+   }
+
+   .magic{
+    
+    color:deeppink;
+    margin-left: 140px;
+   
+    
+    
+   }
+   .enquire-btn {
+    margin-top: 30px;
+    margin-left: 240px;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid crimson;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: deeppink;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .enquire-btn:hover {
+    background-color: #e91e63; 
+  }
+ 
+.offers-container {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .fade-in {
+    opacity: 1;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .content {
+      margin-top: 0;
+    }
+  
+    .magic {
+      font-size: 2rem;
+    }
+  
+    
+  }
+   
+   

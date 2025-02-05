@@ -1,0 +1,99 @@
+.contact-page {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    width: 550px;
+    height: 500px;
+   
+    background-repeat: no-repeat;
+    margin-left: 450px;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/023/825/320/small_2x/a-beautiful-woman-with-a-flower-in-her-hair-poses-for-a-picture-in-a-blue-dress-generative-ai-generative-ai-photo.jpg);
+    
+  }
+  
+  .contact-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .contact-header h1 {
+    font-size: 2.5rem;
+    color: #ff8da0;
+    margin-bottom: 10px;
+  }
+  
+  .contact-header p {
+    font-size: 1.2rem;
+    color: #444;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .detail-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 48%;
+    box-sizing: border-box;
+  }
+  
+  .detail-item h2 {
+    color: #444;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .detail-item p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  .detail-item a {
+    color: #ff8da0;
+    text-decoration: none;
+  }
+  
+  .detail-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-map {
+    text-align: center;
+  }
+  
+  .contact-map h2 {
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .map-container {
+    max-width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .map-container iframe {
+    width: 100%;
+    height: 450px;
+    border-radius: 8px;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .contact-details {
+      flex-direction: column;
+    }
+  
+    .detail-item {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  

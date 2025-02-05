@@ -1,0 +1,33 @@
+.offers {
+    background-color: #f3e5f5;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .offers li::before {
+    content: "✓";
+    color: deeppink;
+    font-size: 1.5rem;
+    position: relative;
+    left: 0;
+  }
+  
+  .offers h2 {
+    color: #ea0fc5;
+    margin-top: 0px;
+    font-size: 2.5rem;
+    
+  }
+  
+  .offers ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .offers li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #5e35b1;
+  }
+  
