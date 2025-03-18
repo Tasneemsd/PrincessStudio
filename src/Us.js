@@ -12,13 +12,13 @@ export default function ContactPage() {
       <div className="contact-details">
         <div className="detail-item">
           <h2>Studio Location</h2>
-          <p><strong>Address:</strong> 123 Royal Street, Fairytale City, Wonderland</p>
+          <p><strong>Address:</strong>Prakash Nagar,Narasaraopet,Palnadu dst,Andhra Pradesh,India.</p>
         </div>
 
         <div className="detail-item">
           <h2>Contact Information</h2>
-          <p><strong>Email:</strong> <a href="mailto:info@princessstudio.com">info@princessstudio.com</a></p>
-          <p><strong>Phone:</strong> <a href="tel:+18001234567">+1 (800) 123-4567</a></p>
+          <p><strong>Email:</strong> <a href="mailto:info@princessstudio.com">princessstudio@gmail.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+18001234567">+91 9490113158</a></p>
         </div>
 
         <div className="detail-item">

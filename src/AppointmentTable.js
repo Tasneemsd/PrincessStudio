@@ -8,6 +8,7 @@ export default function AppointmentTable({ userRole }) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [editingAppointment, setEditingAppointment] = useState(null);
+  
 
   useEffect(() => {
     const fetchAppointments = async () => {
@@ -205,6 +206,7 @@ export default function AppointmentTable({ userRole }) {
           ))}
         </tbody>
       </table>
+      
     </div>
   );
 }
