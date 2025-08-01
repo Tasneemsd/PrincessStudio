@@ -45,7 +45,7 @@ npm install
 
 | Home Page                     | Services Section                 |
 | ----------------------------- | -------------------------------- |
-| ![Home Page](assets/home.png) | ![Services](assets/services.png) |
+| ![Home Page](public/assets/home.png) | ![Services](public/assets/services.png) |
 
 Designed and developed by Tasneem Banu
 # Run the development server
